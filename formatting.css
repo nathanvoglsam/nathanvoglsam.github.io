@@ -1,0 +1,91 @@
+#headerbar {
+	background-color: #33CC33;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	border-bottom-color: black;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+}
+#navbar {
+	background-color: #C2F0C2;
+	width: 250px;
+	height: 500px;
+	float: left;
+	text-align: left;
+	border-right-color: black;
+	border-right-width: 3px;
+	border-right-style: solid;
+	
+}
+#footerbar {
+	background-color: #284328;
+	height: 12px;
+	color: white;
+	clear: both;
+	text-align: center;
+	font-size: 12px;
+}
+
+#mainsection {
+	float: left;
+	padding: 10px;
+
+}
+
+ul#menu {
+	padding: 0;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+ul#menu li a {
+	background-color: #85E085;
+	color: white;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius: 0 4px 4px 0;
+}
+
+ul#menu li a:hover {
+	background-color: #99FF33;
+}
+#bodytext {
+	font-size: 14px;
+	color: black;
+}
+#bodyheading {
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+ul#imgbar li {
+	display:inline;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+	text-align: center;
+	border-color: black;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+   text-align: center;
+   border-color: black;
+}
+table#t01 th	{
+    background-color: black;
+	text-align: center;
+    color: white;
+	border-color: black;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
